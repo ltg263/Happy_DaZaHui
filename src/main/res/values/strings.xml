@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Happy_DaZaHui</string>
+    <string name="xhzd_qy"><![CDATA[拼音:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_bs"><![CDATA[部首:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_bh"><![CDATA[笔画:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_h"><![CDATA[画:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_wb"><![CDATA[五笔:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_hz"><![CDATA[汉字:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_dy"><![CDATA[读音:<font color=#FF4400>%1$s</font>]]></string>
+    <string name="xhzd_jj">简介:</string>
+    <string name="xhzd_shxx">点击或者上滑查看详情</string>
+    <string name="search_content">搜索内容不能为空</string>
+</resources>

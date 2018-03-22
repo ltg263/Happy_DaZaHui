@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bg_green"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <View style="@style/VerticalDivider" />
+
+    <com.ltg263.happy_dzh.view.ItemSearchHead
+        android:id="@+id/ish_head_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/iwork_light_bule" />
+
+    <View style="@style/VerticalDivider" />
+
+    <com.ltg263.happy_dzh.view.RefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_search_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/iwork_light_bule"
+            android:divider="@color/app_red"
+            android:dividerHeight="0.8dp" />
+
+    </com.ltg263.happy_dzh.view.RefreshLayout>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#5eb3ee</color>
+    <!--灰色由深到浅-->
+    <color name="gray_33">#333333</color>
+    <color name="gray_66">#666666</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_b3">#b3b3b3</color>
+    <color name="gray_bf">#bfbfbf</color>
+    <color name="gray_d9">#d9d9d9</color>
+    <color name="gray_dd">#dddddd</color>
+    <color name="gray_ee">#eeeeee</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="gray_f5">#f5f5f5</color>
+    <color name="gray_f50">#f5f5f5</color>
+    <!--字体颜色、淡蓝色-->
+    <color name="iwork_light_bule">#00aaee</color>
+    <!--主题颜色 蓝色-->
+    <color name="app_bule">#2c8be2</color>
+    <!--浅蓝色-->
+    <color name="app_light_bule">#5eb3ee</color>
+    <!--黄色-->
+    <color name="app_yellow">#ffb230</color>
+    <!--红色-->
+    <color name="app_red">#ff7b66</color>
+    <!--背景色-->
+    <color name="app_background_color">#f5f5f5</color>
+    <!--白色-->
+    <color name="white">#ffffff</color>
+    <!-- 半透明 -->
+    <color name="half_transparent">#b0000000</color>
+    <color name="half_transparent_image">#99ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="portrait_normal">#F3F3F3</color>
+    <color name="portrait_selected">#FFC76F</color>
+    <color name="bg_green">#71ad33</color>
+    <color name="item_click">#f4f4f4</color>
+    <!--APP首页标题颜色-->
+    <color name="app_head">#ff11B0EF</color>
+    <!--APP背景色-->
+    <color name="app_background">#F4F4F4</color>
+    <!--APP分割线-->
+    <color name="app_line">#DEDEDE</color>
+    <!--主题按钮背景-->
+    <color name="btn_main">#DBDBD3</color>
+
+    <color name="bg_indicator_point_normal">#D8D8D8</color>
+    <color name="bg_indicator_point_selected">#A6A6A6</color>
+    <color name="bg_horizontal_btn_normal">#eeeeee</color>
+    <color name="bg_horizontal_btn_selected">#70a3a4a7</color>
+
+    <color name="text_click">#FFA088</color>
+    <color name="text_click_btn">#FF4400</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="none_color">#00000000</color>
+    <color name="driver">#d3d3d3</color>
+    <color name="chat_dialog">#d3626262</color>
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="blue_underline">#ff11B0EF</color>
+    <color name="blue_login_button">#ff00AAEE</color>
+</resources>
