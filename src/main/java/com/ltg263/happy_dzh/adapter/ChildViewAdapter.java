@@ -5,6 +5,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.ltg263.happy_dzh.R;
 import com.ltg263.happy_dzh.adapter.base.BaseListAdapter;
 import com.ltg263.happy_dzh.bean.PinyinOrBiHuaBean;
 import com.ltg263.happy_dzh.fragment.MainFirstFragment;
