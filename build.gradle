@@ -5,9 +5,9 @@ android {
     signingConfigs {
         happy {
             keyAlias 'happy_zd'
-            keyPassword 'ltg19870609'
+            keyPassword '*******'
             storeFile file('F:/workspace/androidStudio/Happy_DaZaHui/hayyp_zd.jks')
-            storePassword 'ltg19870609'
+            storePassword '*******'
         }
     }
     compileSdkVersion 23
