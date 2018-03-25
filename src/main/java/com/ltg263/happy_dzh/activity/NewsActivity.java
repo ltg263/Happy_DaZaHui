@@ -55,7 +55,7 @@ public class NewsActivity extends BaseActivity {
         }
         toolbar.setTitle("相关"+newsTitle+"新闻列表");
         toolbar.setNavigationIcon(R.drawable.action_bar_return);
-        toolbar.setTitleTextColor(getResources().getColor(R.color.app_light_bule));
+        toolbar.setTitleTextColor(getResources().getColor(R.color.toolbar_title_color));
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

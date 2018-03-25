@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Happy_DaZaHui</string>
+    <string name="app_name">大杂烩</string>
     <string name="xhzd_qy"><![CDATA[拼音:<font color=#FF4400>%1$s</font>]]></string>
     <string name="xhzd_bs"><![CDATA[部首:<font color=#FF4400>%1$s</font>]]></string>
     <string name="xhzd_bh"><![CDATA[笔画:<font color=#FF4400>%1$s</font>]]></string>

@@ -60,13 +60,9 @@ public class RetrofitUtil {
         if (params == null || clz == null) {
             return;
         }
-        if(params.getUrl().contains("xhzd")){
-            params.addQuery("key","d6db5e2d09ce2375060bb4c7e8d352b0");
-        }else if(params.getUrl().contains("wepiao")){
-            params.addQuery("key","b9028c6563dcb2cf68efeac77395341a");
-        }else{
-            params.addQuery("key","3caaaad305631b11cd6c9a858534c6e8");
-        }
+        //聚合申请的KEY
+        String key="********************************";
+        params.addQuery("key",key);
         BaseApiService apiService = mRetrofit.create(BaseApiService.class);
         String url = params.getUrl();
         Call<ResponseBody> call;

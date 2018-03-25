@@ -72,13 +72,13 @@ public class SearchListActivity extends BaseActivity implements SwipeRefreshLayo
         }
         toolbar.setTitle(word);
         toolbar.setNavigationIcon(R.drawable.action_bar_return);
+        toolbar.setTitleTextColor(getResources().getColor(R.color.toolbar_title_color));
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
-        toolbar.setTitleTextColor(getResources().getColor(R.color.app_light_bule));
 
         isLoading = true;
         refreshLayout.setOnRefreshListener(this);

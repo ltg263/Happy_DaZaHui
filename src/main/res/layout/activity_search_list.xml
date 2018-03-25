@@ -9,8 +9,9 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/bg_green"
+        android:background="@color/toolbar_background_color"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@dimen/toolbar_title_size"
         app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <View style="@style/VerticalDivider" />
@@ -19,6 +20,7 @@
         android:id="@+id/ish_head_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:visibility="gone"
         android:background="@color/iwork_light_bule" />
 
     <View style="@style/VerticalDivider" />
@@ -32,8 +34,8 @@
             android:id="@+id/lv_search_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/iwork_light_bule"
-            android:divider="@color/app_red"
+            android:background="@color/app_background"
+            android:divider="@color/app_line"
             android:dividerHeight="0.8dp" />
 
     </com.ltg263.happy_dzh.view.RefreshLayout>

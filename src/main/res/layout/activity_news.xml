@@ -10,8 +10,9 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/bg_green"
+        android:background="@color/toolbar_background_color"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@dimen/toolbar_title_size"
         app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <View style="@style/VerticalDivider" />

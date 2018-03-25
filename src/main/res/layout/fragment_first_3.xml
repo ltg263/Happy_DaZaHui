@@ -8,6 +8,7 @@
         android:id="@+id/explistview"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:groupIndicator="@null"
         android:background="@color/app_background"
         android:childDivider="@color/app_line"
         android:divider="@color/app_line"

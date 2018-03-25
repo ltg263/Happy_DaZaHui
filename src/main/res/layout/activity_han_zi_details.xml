@@ -3,14 +3,15 @@
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/app_light_bule">
+    android:background="@color/app_background_color">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/text_click_btn"
+        android:background="@color/toolbar_background_color"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@dimen/toolbar_title_size"
         app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
 
     <View
@@ -236,7 +237,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/text_foot"
-                android:background="@color/app_light_bule">
+                android:background="@color/app_background_color">
 
                 <TextView
                     android:id="@+id/tv_xiang_jie"

@@ -96,6 +96,7 @@ public class HanZiDetailsActivity extends BaseActivity {
         toolbar.setTitle("汉字详情");
         toolbar.setNavigationIcon(R.drawable.action_bar_return);
         toolbar.setTitleTextColor(getResources().getColor(R.color.app_light_bule));
+        toolbar.setTitleTextColor(getResources().getColor(R.color.toolbar_title_color));
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

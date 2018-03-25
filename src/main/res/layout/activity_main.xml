@@ -1,4 +1,5 @@
-<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/dl_man_theme"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -22,7 +23,9 @@
                 android:layout_centerInParent="true"
                 android:gravity="center"
                 android:text="标题"
-                android:textSize="16sp" />
+                android:textColor="@color/toolbar_title_color"
+                android:background="@color/toolbar_background_color"
+                android:textSize="@dimen/toolbar_title_size" />
 
             <ImageView
                 android:id="@+id/iv_right_menu"
@@ -160,6 +163,5 @@
     <include
         android:id="@+id/ll_left_content"
         layout="@layout/item_right_menu" />
-
 
 </android.support.v4.widget.DrawerLayout>

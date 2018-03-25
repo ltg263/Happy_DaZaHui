@@ -63,4 +63,7 @@
     <color name="backgroundColorPress">#DBDBD3</color>
     <color name="blue_underline">#ff11B0EF</color>
     <color name="blue_login_button">#ff00AAEE</color>
+    <!-- Toolbar 的样式设置-->
+    <color name="toolbar_title_color">#000000</color>
+    <color name="toolbar_background_color">#ff11B0EF</color>
 </resources>
